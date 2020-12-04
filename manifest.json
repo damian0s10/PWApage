@@ -1,0 +1,9 @@
+{
+  "background_color": "purple",
+  "theme_color": "purple",
+  "display": "standalone",
+  "lang": "pl",
+  "name": "PWA Website",
+  "short_name": "PWA Website",
+  "start_url": "./index.html"
+}
