@@ -7,16 +7,9 @@
     <link href="style.css" rel="stylesheet">
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="purple">
-    <link
-      async
-      rel="stylesheet"
-      href="//cdn.jsdelivr.net/npm/semantic-ui@${props.versions.sui}/dist/semantic.min.css"
-    />
-    <script
-      async
-      src="//cdn.jsdelivr.net/npm/semantic-ui@${props.versions.sui}/dist/semantic.min.js"
-    ></script>
     
+    
+  
   </head>
   <body>
     <div class="ui two column centered grid">
@@ -32,7 +25,23 @@
         </div>
       </div>
       </div>
+    
+      <!-- <img id="image" width="100px" height="100px">
 
+<input type="file" accept="image/*" onchange="preview_image(event)">
+
+
+<script type"text/javascript">
+  function preview_image(event) {
+    var reader = new FileReader();
+    reader.onload = function(){
+      var output = document.getElementById('image');
+      output.src = reader.result;
+    }
+    reader.readAsDataURL(event.target.files[0]);
+  }
+</script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
     <script src="index.js" defer></script>
     
   </body>
