@@ -7,7 +7,16 @@
     <link href="style.css" rel="stylesheet">
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="purple">
-    
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+    />
     
   
   </head>
@@ -15,34 +24,17 @@
     <div class="ui two column centered grid">
       <div class="row">
         <div class="column">
-            test1
+          <input hidden type="file" class="upload-input" aria-label="Upload image" name="upload_image" accept="image/*" />
+          <button type="button" class="ui button upload-btn"><i class="upload icon"></i></button>
         </div>
       
         <div class="column">
-          <div class="ui cards">
-            sdsd
-          </div>
+          
         </div>
       </div>
       </div>
     
-      <!-- <img id="image" width="100px" height="100px">
-
-<input type="file" accept="image/*" onchange="preview_image(event)">
-
-
-<script type"text/javascript">
-  function preview_image(event) {
-    var reader = new FileReader();
-    reader.onload = function(){
-      var output = document.getElementById('image');
-      output.src = reader.result;
-    }
-    reader.readAsDataURL(event.target.files[0]);
-  }
-</script> -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
-    <script src="index.js" defer></script>
+    <script src="index.js"></script>
     
   </body>
 </html>
